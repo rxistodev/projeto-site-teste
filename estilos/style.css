@@ -1,3 +1,5 @@
+@charset "UTF-8"
+
 * {
     front-family: arial, helvetica, sans-serif;
     front-size: 16px;
@@ -5,7 +7,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-image: linear-gradient(to right, #2D2A8C, #0D0D0D, #5E5BA6);
 
 
 }
@@ -16,5 +18,13 @@ main{
     width: 500px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px black
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px #221f68
+        
+}
+
+h2{
+    text-align: center;
+    text-shadow: 1px, 1px, 2px, #9e5555;
 }
